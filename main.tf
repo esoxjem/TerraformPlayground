@@ -7,6 +7,6 @@ resource "aws_instance" "first" {
     instance_type = "t2.micro"
 
     tags = {
-        Name = "second-tf-change"
+        Name = "tf-test-instance"
     }
 }
